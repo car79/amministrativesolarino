@@ -1,0 +1,19 @@
+@media (max-width: 767.98px) {
+/*   #cambiopasso h1 {
+    font-size: calc(1rem + 5vw);
+  } */
+}
+
+@media (max-width: 991px) {
+  .nome-lista {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+@media (max-width: 575.98px) {
+.tr-voti-sezioni{
+font-size: 0.6rem;
+width: 32px !important;
+}
+}

@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --bg-body: #f3f3f9;
+  --bg-green: rgba(10, 179, 156, 1);
+  --bg-white: #fff;
+  --bg-yellow: rgba(247, 184, 75, 1);
+  --bg-red: rgba(225, 102, 93, 1);
+  --bg-black: #242424;
+  --bg-gray: #ccc;
+
+  --border-green: var(--bg-green);
+  --border-yellow: var(--bg-yellow);
+  --border-gray: var(--bg-gray);
+
+  --primary-font: "Montserrat", sans-serif;
+  --text-black: #242424;
+  --text-white: #fff;
+  --text-green: var(--bg-green);
+  --text-yellow: var(--bg-yellow);
+  --text-red: var(--bg-red);
+  --text-gray: var(--bg-gray);
+
+  --btn-success: var(--bg-green);
+  --btn-success-hover: #39bf52;
+  --btn-success-border: var(--bg-green);
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background-color: var(--bg-body);
+  color: var(--text-black);
+  overflow-x: hidden;
+}
+
+h1 {
+  color: var(--text-black);
+  font-size: 2.5rem;
+  font-weight: 900 !important;
+  line-height: 3.5rem;
+}
+
+h5 {
+  color: var(--text-black);
+}
+
+.text-green {
+  color: var(--text-green) !important;
+}
+.text-red {
+  color: var(--text-red) !important;
+}
+.text-yellow {
+  color: var(--text-yellow) !important;
+}
+.text-gray {
+  color: var(--text-gray) !important;
+}
+.bg-black {
+  background-color: var(--bg-black) !important;
+}
+.bg-white {
+  background-color: var(--bg-white) !important;
+}
+.bg-green {
+  background-color: var(--bg-green) !important;
+}
+.bg-yellow {
+  background-color: var(--bg-yellow) !important;
+}
+.bg-red {
+  background-color: var(--bg-red) !important;
+}
+.font-size-11 {
+  font-size: 11px !important;
+}
+.font-size-9 {
+  font-size: 9px !important;
+}
+.font-size-8 {
+  font-size: 8px !important;
+}
+button {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.mh-1550 {
+  max-height: 1537px;
+}
+
+.form-select:focus {
+  border-color: var(--border-green);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(10, 179, 156, 0.25);
+}
+.form-select:disabled {
+  border: inherit;
+}
+
+header {
+  background: url("../images/bg-header.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+header .card {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0;
+  box-shadow: none !important;
+}
+header .title {
+  font-weight: 900;
+  line-height: 0.7;
+}
+header img {
+  max-height: 100%;
+}
+header h5 {
+  font-weight: 300;
+}
+header h5 span {
+  color: var(--text-yellow);
+}
+
+.section {
+  position: relative;
+}
+
+h1::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  display: block;
+  background-color: var(--bg-yellow);
+}
+.tr-voti-sezioni {
+  margin: 0px 2px;
+  width: 50px;
+}
